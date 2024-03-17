@@ -17,7 +17,6 @@ extern "C" {
 //------------------------------------------------------------------------------
 #define DATA_PIN 2
 
-// Define the array of leds
 CRGB leds[NUM_LEDS];
 
 volatile byte RowControllerData;
@@ -86,7 +85,7 @@ void DispatchCommand( struct cmd_ctx *ctx)
 
 void setup() { 
     cli();
-	FastLED.addLeds<WS2812,DATA_PIN,RGB>(leds,NUM_LEDS);
+    FastLED.addLeds<WS2812,DATA_PIN,RGB>(leds,NUM_LEDS);
 
 
     TinyWireS.begin( I2C_ADDR );
