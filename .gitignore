@@ -1,0 +1,6 @@
+.*.swp
+Software/*/builds/*
+Software/*/artifacts/
+
+gentags.sh
+tags
