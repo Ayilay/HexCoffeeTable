@@ -3,6 +3,7 @@
 
 extern "C" {
 #include "commands.h"
+#include "PlatIO.h"
 }
 
 // Row Controller has 8 cells/row, each has 12 LEDs
@@ -11,13 +12,6 @@ extern "C" {
 #define NUM_LEDS            ( NUM_CELLS * LEDS_PER_CELL )
 
 #define MAX_PAYLOAD         ( 24 )
-
-//------------------------------------------------------------------------------
-//  IO Declarations
-//------------------------------------------------------------------------------
-#define DATA_PIN 2
-
-CRGB leds[NUM_LEDS];
 
 volatile byte RowControllerData;
 
@@ -85,7 +79,7 @@ void DispatchCommand( struct cmd_ctx *ctx)
 
 void setup() { 
     cli();
-    FastLED.addLeds<WS2812,DATA_PIN,RGB>(leds,NUM_LEDS);
+    FastLED.addLeds<WS2812,LED_PIN,RGB>(leds,NUM_LEDS);
 
 
     TinyWireS.begin( I2C_ADDR );

@@ -45,11 +45,13 @@ check_params()
 }
 
 BOARD="-b ATTinyCore:avr:attinyx4"
+#BOARD="-b ATTinyCore:avr:attinyx5"
+
 FLAGS="${FLAGS} --build-property build.extra_flags=-DI2C_ADDR=${ADDR}"
 FLAGS="${FLAGS} --build-cache-path ${BUILD_DIR}"
 FLAGS="${FLAGS} --build-path ${BUILD_DIR}"
 FLAGS="${FLAGS} --verbose"
-FLAGS="${FLAGS} --no-color"
+#FLAGS="${FLAGS} --no-color"
 
 #------------------------------------------------------------
 #   Script Main
@@ -60,5 +62,5 @@ check_params
 arduino-cli compile ${BOARD} ${FLAGS} ${TARGET}
 
 cp ${OUT_FILE} ${ARTIFACT_FILE}
-avr-objdump -D ${OUT_FILE} > ${ARTIFACT_FILE}.dis
+avr-objdump --demangle -D ${OUT_FILE} > ${ARTIFACT_FILE}.dis
 avr-nm -S --size-sort --demangle ${OUT_FILE} > ${ARTIFACT_FILE}.size
