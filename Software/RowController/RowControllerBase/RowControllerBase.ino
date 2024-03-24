@@ -13,6 +13,8 @@ extern "C" {
 
 #define MAX_PAYLOAD         ( 24 )
 
+CRGB leds[NUM_LEDS];
+
 volatile byte RowControllerData;
 
 //------------------------------------------------------------------------------
@@ -32,7 +34,7 @@ enum isrFlags {
 // The BODY_xx func must CLEAR the bit when done.
 volatile enum isrFlags pendIsr;
 
-#define ISR_PEND( WHICH )   ( pendIsr |= WHICH )
+#define ISR_PEND( WHICH )   ( pendIsr |=  (WHICH) )
 #define ISR_DONE( WHICH )   ( pendIsr &= ~(WHICH) )
 
 void ISR_I2C_Recv( uint8_t );
