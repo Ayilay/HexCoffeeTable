@@ -1,0 +1,75 @@
+
+FQBN: ATTinyCore:avr:attinyx4
+Using board 'attinyx4' from platform in folder: /home/ayilay/.arduino15/packages/ATTinyCore/hardware/avr/1.5.2
+Using core 'tiny' from platform in folder: /home/ayilay/.arduino15/packages/ATTinyCore/hardware/avr/1.5.2
+
+Detecting libraries used...
+/home/ayilay/.arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-g++ -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -w -x c++ -E -CC -mmcu=attiny84 -DF_CPU=8000000L -DCLOCK_SOURCE=0 -DARDUINO=10607 -DARDUINO_AVR_ATTINYX4 -DARDUINO_ARCH_AVR -DI2C_ADDR=1 -I/home/ayilay/.arduino15/packages/ATTinyCore/hardware/avr/1.5.2/cores/tiny -I/home/ayilay/.arduino15/packages/ATTinyCore/hardware/avr/1.5.2/variants/tinyX4_reverse /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/sketch/RowControllerBase.ino.cpp -o /dev/null
+Alternatives for TinyWireS.h: [TinyWireS@1.0.0]
+ResolveLibrary(TinyWireS.h)
+  -> candidates: [TinyWireS@1.0.0]
+/home/ayilay/.arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-g++ -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -w -x c++ -E -CC -mmcu=attiny84 -DF_CPU=8000000L -DCLOCK_SOURCE=0 -DARDUINO=10607 -DARDUINO_AVR_ATTINYX4 -DARDUINO_ARCH_AVR -DI2C_ADDR=1 -I/home/ayilay/.arduino15/packages/ATTinyCore/hardware/avr/1.5.2/cores/tiny -I/home/ayilay/.arduino15/packages/ATTinyCore/hardware/avr/1.5.2/variants/tinyX4_reverse -I/home/ayilay/Arduino/libraries/TinyWireS /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/sketch/RowControllerBase.ino.cpp -o /dev/null
+Alternatives for FastLED.h: [FastLED@3.6.0]
+ResolveLibrary(FastLED.h)
+  -> candidates: [FastLED@3.6.0]
+/home/ayilay/.arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-g++ -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -w -x c++ -E -CC -mmcu=attiny84 -DF_CPU=8000000L -DCLOCK_SOURCE=0 -DARDUINO=10607 -DARDUINO_AVR_ATTINYX4 -DARDUINO_ARCH_AVR -DI2C_ADDR=1 -I/home/ayilay/.arduino15/packages/ATTinyCore/hardware/avr/1.5.2/cores/tiny -I/home/ayilay/.arduino15/packages/ATTinyCore/hardware/avr/1.5.2/variants/tinyX4_reverse -I/home/ayilay/Arduino/libraries/TinyWireS -I/home/ayilay/Arduino/libraries/FastLED/src /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/sketch/RowControllerBase.ino.cpp -o /dev/null
+Using cached library dependencies for file: /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/sketch/command_table.c
+Using cached library dependencies for file: /home/ayilay/Arduino/libraries/TinyWireS/TinyWireS.cpp
+Using cached library dependencies for file: /home/ayilay/Arduino/libraries/TinyWireS/utility/USI_TWI_Slave.c
+Using cached library dependencies for file: /home/ayilay/Arduino/libraries/FastLED/src/FastLED.cpp
+Using cached library dependencies for file: /home/ayilay/Arduino/libraries/FastLED/src/bitswap.cpp
+Using cached library dependencies for file: /home/ayilay/Arduino/libraries/FastLED/src/colorpalettes.cpp
+Using cached library dependencies for file: /home/ayilay/Arduino/libraries/FastLED/src/colorutils.cpp
+Using cached library dependencies for file: /home/ayilay/Arduino/libraries/FastLED/src/hsv2rgb.cpp
+Using cached library dependencies for file: /home/ayilay/Arduino/libraries/FastLED/src/lib8tion.cpp
+Using cached library dependencies for file: /home/ayilay/Arduino/libraries/FastLED/src/noise.cpp
+Using cached library dependencies for file: /home/ayilay/Arduino/libraries/FastLED/src/platforms/esp/32/clockless_rmt_esp32.cpp
+Using cached library dependencies for file: /home/ayilay/Arduino/libraries/FastLED/src/platforms.cpp
+Using cached library dependencies for file: /home/ayilay/Arduino/libraries/FastLED/src/power_mgt.cpp
+Using cached library dependencies for file: /home/ayilay/Arduino/libraries/FastLED/src/wiring.cpp
+Generating function prototypes...
+/home/ayilay/.arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-g++ -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -w -x c++ -E -CC -mmcu=attiny84 -DF_CPU=8000000L -DCLOCK_SOURCE=0 -DARDUINO=10607 -DARDUINO_AVR_ATTINYX4 -DARDUINO_ARCH_AVR -DI2C_ADDR=1 -I/home/ayilay/.arduino15/packages/ATTinyCore/hardware/avr/1.5.2/cores/tiny -I/home/ayilay/.arduino15/packages/ATTinyCore/hardware/avr/1.5.2/variants/tinyX4_reverse -I/home/ayilay/Arduino/libraries/TinyWireS -I/home/ayilay/Arduino/libraries/FastLED/src /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/sketch/RowControllerBase.ino.cpp -o /tmp/708191960/sketch_merged.cpp
+/home/ayilay/.arduino15/packages/builtin/tools/ctags/5.8-arduino11/ctags -u --language-force=c++ -f - --c++-kinds=svpf --fields=KSTtzns --line-directives /tmp/708191960/sketch_merged.cpp
+Compiling sketch...
+/home/ayilay/.arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-g++ -c -g -Os -w -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -flto -mmcu=attiny84 -DF_CPU=8000000L -DCLOCK_SOURCE=0 -DARDUINO=10607 -DARDUINO_AVR_ATTINYX4 -DARDUINO_ARCH_AVR -DI2C_ADDR=1 -I/home/ayilay/.arduino15/packages/ATTinyCore/hardware/avr/1.5.2/cores/tiny -I/home/ayilay/.arduino15/packages/ATTinyCore/hardware/avr/1.5.2/variants/tinyX4_reverse -I/home/ayilay/Arduino/libraries/TinyWireS -I/home/ayilay/Arduino/libraries/FastLED/src /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/sketch/RowControllerBase.ino.cpp -o /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/sketch/RowControllerBase.ino.cpp.o
+Using previously compiled file: /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/sketch/command_table.c.o
+In file included from /home/ayilay/Arduino/libraries/FastLED/src/FastLED.h:75:0,
+                 from /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/RowControllerBase/RowControllerBase.ino:2:
+/home/ayilay/Arduino/libraries/FastLED/src/fastspi.h:157:23: note: #pragma message: No hardware SPI pins defined.  All SPI access will default to bitbanged output
+ #      pragma message "No hardware SPI pins defined.  All SPI access will default to bitbanged output"
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Compiling libraries...
+Compiling library "TinyWireS"
+Using previously compiled file: /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/libraries/TinyWireS/TinyWireS.cpp.o
+Using previously compiled file: /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/libraries/TinyWireS/utility/USI_TWI_Slave.c.o
+Compiling library "FastLED"
+Using previously compiled file: /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/libraries/FastLED/colorpalettes.cpp.o
+Using previously compiled file: /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/libraries/FastLED/bitswap.cpp.o
+Using previously compiled file: /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/libraries/FastLED/hsv2rgb.cpp.o
+Using previously compiled file: /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/libraries/FastLED/noise.cpp.o
+Using previously compiled file: /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/libraries/FastLED/FastLED.cpp.o
+Using previously compiled file: /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/libraries/FastLED/lib8tion.cpp.o
+Using previously compiled file: /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/libraries/FastLED/colorutils.cpp.o
+Using previously compiled file: /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/libraries/FastLED/platforms.cpp.o
+Using previously compiled file: /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/libraries/FastLED/power_mgt.cpp.o
+Using previously compiled file: /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/libraries/FastLED/wiring.cpp.o
+Using previously compiled file: /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/libraries/FastLED/platforms/esp/32/clockless_rmt_esp32.cpp.o
+Compiling core...
+Using precompiled core: /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/core/ATTinyCore_avr_attinyx4_bddb353581186f88332a453b8ee7418f/core.a
+Linking everything together...
+/home/ayilay/.arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-gcc -w -Os -g -flto -fuse-linker-plugin -Wl,--gc-sections -mmcu=attiny84 -o /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/RowControllerBase.ino.elf /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/sketch/RowControllerBase.ino.cpp.o /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/sketch/command_table.c.o /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/libraries/TinyWireS/TinyWireS.cpp.o /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/libraries/TinyWireS/utility/USI_TWI_Slave.c.o /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/libraries/FastLED/FastLED.cpp.o /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/libraries/FastLED/bitswap.cpp.o /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/libraries/FastLED/colorpalettes.cpp.o /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/libraries/FastLED/colorutils.cpp.o /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/libraries/FastLED/hsv2rgb.cpp.o /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/libraries/FastLED/lib8tion.cpp.o /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/libraries/FastLED/noise.cpp.o /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/libraries/FastLED/platforms.cpp.o /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/libraries/FastLED/platforms/esp/32/clockless_rmt_esp32.cpp.o /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/libraries/FastLED/power_mgt.cpp.o /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/libraries/FastLED/wiring.cpp.o /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/core/ATTinyCore_avr_attinyx4_bddb353581186f88332a453b8ee7418f/core.a -L/home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds -lm
+/home/ayilay/.arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-objcopy -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0 /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/RowControllerBase.ino.elf /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/RowControllerBase.ino.eep
+/home/ayilay/.arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-objcopy -O ihex -R .eeprom /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/RowControllerBase.ino.elf /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/RowControllerBase.ino.hex
+
+Using library TinyWireS at version 1.0.0 in folder: /home/ayilay/Arduino/libraries/TinyWireS 
+Using library FastLED at version 3.6.0 in folder: /home/ayilay/Arduino/libraries/FastLED 
+/home/ayilay/.arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-size -A /home/ayilay/winAyilay/Documents/Projects/0001-HexagonCoffeeTable/Software/RowController/builds/RowControllerBase.ino.elf
+Sketch uses 3946 bytes (48%) of program storage space. Maximum is 8192 bytes.
+Global variables use 447 bytes (87%) of dynamic memory, leaving 65 bytes for local variables. Maximum is 512 bytes.
+
+[92mUsed library[0m [92mVersion[0m [90mPath[0m
+[93mTinyWireS[0m    1.0.0   [90m/home/ayilay/Arduino/libraries/TinyWireS[0m
+[93mFastLED[0m      3.6.0   [90m/home/ayilay/Arduino/libraries/FastLED[0m
+
+[92mUsed platform[0m  [92mVersion[0m [90mPath[0m
+[93mATTinyCore:avr[0m 1.5.2   [90m/home/ayilay/.arduino15/packages/ATTinyCore/hardware/avr/1.5.2[0m

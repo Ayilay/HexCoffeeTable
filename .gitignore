@@ -1,6 +1,7 @@
 .*.swp
 Software/*/builds/*
 Software/*/artifacts/
+test
 
 gentags.sh
 tags

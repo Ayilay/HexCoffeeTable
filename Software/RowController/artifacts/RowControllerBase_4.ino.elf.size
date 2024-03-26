@@ -1,0 +1,66 @@
+008001fa 00000001 b RowControllerData
+00800086 00000001 b gTimeErrorAccum256ths
+00800087 00000001 b PixelController<(EOrder)10, 1, 4294967295ul>::init_binary_dithering()::R
+008001fd 00000001 b millis_timer_fract
+008000cd 00000001 b rxCount
+008000c6 00000001 b rxHead
+008000c7 00000001 b rxTail
+008000c8 00000001 b slaveAddress
+008001f9 00000001 b txCount
+008001f8 00000001 b txHead
+008000c5 00000001 b txTail
+008001ee 00000002 b State
+00800219 00000002 b CLEDController::m_pHead
+008000aa 00000002 b CLEDController::m_pTail
+0080020a 00000002 b CFastLED::countFPS(int)::br
+00000926 00000002 t __cxa_pure_virtual
+008000a8 00000002 b overflowState
+008001fb 00000002 b pendIsr
+008000c9 00000002 b usi_onReceiverPtr
+008000cb 00000002 b usi_onRequestPtr
+0080021b 00000004 b lastshow
+00000798 00000004 t ClocklessController<(unsigned char)3, 2, 5, 3, (EOrder)10, 0, false, 10>::init()
+00800206 00000004 b CFastLED::countFPS(int)::lastframe
+00000e68 00000004 T __mulsi3
+00800202 00000004 b millis_timer_millis
+008001fe 00000004 b millis_timer_overflow_count
+00000792 00000006 t CLEDController::lanes()
+00000792 00000006 t CPixelLEDController<(EOrder)10, 1, 4294967295ul>::lanes()
+000008d6 00000006 t CLEDController::getMaxRefreshRate() const
+00000330 00000006 t ClocklessController<(unsigned char)3, 2, 5, 3, (EOrder)10, 0, false, 10>::getMaxRefreshRate() const
+008000bd 00000008 b guard variable for CLEDController& CFastLED::addLeds<WS2812, (unsigned char)3, (EOrder)10>(CRGB*, int, int)::c
+000008dc 00000008 t CLEDController::size()
+00000f38 00000008 T abort
+008001f0 00000008 b txBuf
+00000f2c 0000000c T __tablejump2__
+0080020c 0000000d b FastLED
+00000046 00000010 T __do_clear_bss
+008000ac 00000011 b CLEDController& CFastLED::addLeds<WS2812, (unsigned char)3, (EOrder)10>(CRGB*, int, int)::c
+00800060 00000012 d vtable for CLEDController
+00000e34 00000012 T __mulqi3
+00800072 00000014 d vtable for ClocklessController<(unsigned char)3, 2, 5, 3, (EOrder)10, 0, false, 10>
+00800072 00000014 d vtable for WS2812<(unsigned char)3, (EOrder)10>
+00000056 00000014 T __do_global_ctors
+00000304 00000016 t ISR_I2C_Recv(unsigned char)
+0000031a 00000016 t ISR_I2C_Send()
+00000030 00000016 T __do_copy_data
+00000e14 00000020 t _GLOBAL__sub_I_pSmartMatrix
+00800088 00000020 b rxBuf
+00000e46 00000022 T __mulhi3
+00000e9a 00000026 T __divmodhi4
+00000f04 00000028 T __udivmodhi4
+00000336 0000002c t usiTwiReceiveByte
+00000e6c 0000002e T __mulsi3_helper
+00000b28 0000003a T __vector_15
+000008e4 00000042 t CLEDController::clearLeds(int)
+00000ec0 00000044 T __udivmodsi4
+00000070 0000004c t micros
+00000852 00000084 t CPixelLEDController<(EOrder)10, 1, 4294967295ul>::showColor(CRGB const&, int, CRGB)
+00000362 00000086 t PixelController<(EOrder)10, 1, 4294967295ul>::init_binary_dithering()
+00000928 00000094 T __vector_11
+0000079c 000000b6 t CPixelLEDController<(EOrder)10, 1, 4294967295ul>::show(CRGB const*, int, CRGB)
+008000ce 00000120 b leds
+000009bc 0000016c T __vector_16
+000000bc 00000248 t CFastLED::show(unsigned char) [clone .constprop.18]
+00000b62 000002b2 T main
+000003e8 000003aa t ClocklessController<(unsigned char)3, 2, 5, 3, (EOrder)10, 0, false, 10>::showPixels(PixelController<(EOrder)10, 1, 4294967295ul>&)

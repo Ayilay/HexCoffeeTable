@@ -14,9 +14,9 @@ struct cmd_entry {
 };
 
 struct cmd_ctx {
-    uint8_t  op;
-    uint8_t  len;
-    uint8_t *payload;
+    uint8_t  op;        //<! Command Op-Code
+    uint8_t  len;       //<! Payload Length, NOT including Op-Code
+    uint8_t *payload;   //<! Payload Bytes
 };
 
 extern struct cmd_entry command_table[];
